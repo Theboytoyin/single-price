@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    color: hsl(204, 43%, 93%);
+}
+body {
+    min-height: 100vh; /* make the height of your body at least 100vh which is the full screen height (or the viewport height - that's what vh means) */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    }
+section {
+    display: flex;
+}
+.Monthly {
+    width: 200px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    line-height: 0.1px;
+}
+.Why {
+    width: 200px;
+    background-color: hsl(179, 55%, 59%);
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+}
+.Join {
+    background-color: hsl(204, 43%, 93%);
+    width: 439px;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+li {
+    color: hsl(201, 75%, 84%);
+    list-style: none;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+p {
+    color: hsl(218, 22%, 67%);
+    width: 399px;
+}
+button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    font-size: 12px;
+    font: bold;
+}
+span {
+    color: hsl(204, 42%, 82%);
+    font-size: small;
+}
+.Monthly h4 {
+    font-size: 25px;
+}
+h2 {
+    font-size: large;
+}
+h1 {
+    font-size: 19px;
+}
